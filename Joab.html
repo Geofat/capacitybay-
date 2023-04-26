@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h2>Welcome to my Webpage</h2> 
+   <a href="./others/about.html" target="_blank">About us</a>
+   <a href="./others/contact.html"target="_blank">contact us</a>
+   <a href="./others/blog.html" target="_blank">myblog</a>
+
+   <form action="registration">
+<label for="firstname"> First Name</label>
+<br>
+<input type="text"><br>
+<label for="lastname"> Last Name</label>
+<br>
+<input type="text"><br>
+<label for="email"> email</label>
+<br>
+<input type="email"><br>
+<label for="password"> password</label>
+<br>
+<input type="password" required><br>
+<label for="gender">Gender</label><br>
+<input type="radio" id="gender" name="gender">male
+<input type="radio" id="gender" name="gender">female
+<input type="radio" id="gender" name="gender">Rather not say
+<br>
+<label for="favourite">Favourite food</label><br>
+<select multiple name="food" id="food">
+    <option value="1">rice</option>
+    <option value="2">beans</option>
+    <option value="3">spaghetti</option>
+    <option value="4">soup</option>
+    <option value="5">pizza</option>
+</select>
+<br>
+<label for="certificate">Certificate</label><br>
+<select name="certificate" id="certificate">
+    <option value="1">FSLC</option>
+    <option value="2">O'LEVEL</option>
+    <option value="3">BSC</option>
+</select>
+<br>
+<label for="phonenumber">Phone Number</label>
+<br>
+<input type="number"><br>
+<label for="aboutme">Tell us about yourself</label><br>
+<textarea name="aboutme" id="aboutme" cols="30" rows="10"></textarea><br>
+<input type="button" value="submit">
+   </form>
+</body>
+</html>
